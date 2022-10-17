@@ -1,0 +1,38 @@
+{
+    "name": "mstfblci/laravel-addresses",
+    "description": "Module for storing addresses.",
+    "keywords": ["laravel", "module", "addresses"],
+    "homepage": "https://github.com/mstfblci/laravel-addresses",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustafa Balcı",
+            "email": "madonetr@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^7.2.5|^8.0",
+        "illuminate/auth": "^6.0|^7.0|^8.0",
+        "illuminate/container": "^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madonetr\\Addresses\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madonetr\\Addresses\\AddressesServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
